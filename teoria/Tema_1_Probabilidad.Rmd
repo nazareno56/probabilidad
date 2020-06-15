@@ -5,7 +5,7 @@ date: ''
 output:
   ioslides_presentation: 
     css: Mery_style.css
-    keep_md: no
+    keep_md: yes
     logo: Images/matriz_mov.gif
     widescreen: yes
 ---
@@ -260,7 +260,7 @@ $$
 
 Si $a\in \Omega$ es un suceso elemental cometeremos el abuso de notación de poner $P(a)$ en lugar de $P(\{a\})$
 
-## Ejemplo: grupos sanguíneos
+## Ejemplo: grupos sangíneos
 
 <div class="example">
 **Ejemplo**
@@ -437,11 +437,11 @@ Los sucesos elementales son:
 En este caso nos interesa estudiar los sucesos: 
 
 * $A\cap B$: dar positivo en los dos test; $P(A\cap B)=0.0005.$
-* $A-B$: dar positivo en  cocaína pero no en cannabis,
+* $B-A$: dar positivo en  cocaína pero no en cannabis,
 
 de donde, por tanto:
 
-$$P(A-B) =P(A)-P(A\cap B) =0.001-0.0005=0.0005.$$
+$$P(B-A) =P(B)-P(A\cap B) =0.01-0.0005=0.0095.$$
 </div>
 
 # Probabilidad condicionada
@@ -829,7 +829,7 @@ Así  el resultado del clasificador o del diagnóstico  puede ser:
 
 ## Clasificación o Diagnósticos
 
-<l class="definition"> Positivos y Negativos en Clasificación</l>
+<l class="definition"> ositivos y Negativos en Clasificación</l>
 Consideremos un problema de predicción de clases binario, en la que los resultados se etiquetan positivos (P) o negativos (N). Hay cuatro posibles resultados a partir de un clasificador binario como el propuesto. 
 
 * Si el resultado de una exploración es P y el valor dado es también P, entonces se conoce como un Verdadero Positivo (VP). 
@@ -1026,7 +1026,7 @@ Supongamos que llega un cliente ¿cuál es la  probabilidad de  que si ha compra
 
 Buscamos estudiar el suceso $E$: el cliente compra, se tiene que:
 
-$$P(E|A)=0.5, P(E|B)=0.75, P(E|C)=0.6.$$
+$$P(E|A)=0.5, P(E|B)=0.75, P(E|C)=0.6$.$
 
 $$P(B|E)\!=\!\dfrac{P(E|B)\cdot P(B)}{P(E|A)\!\cdot\! P(A)\!+\!P(E|B)\!\cdot\! P(B)\!+\!P(E|C)\!\cdot\! P(C)}\!=\!\ldots$$
 </div>
